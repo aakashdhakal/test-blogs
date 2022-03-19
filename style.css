@@ -1,6 +1,7 @@
 /*CSS Starts*/
 html {
 	scroll-behavior: smooth;
+	font-family: Poppins;
 }
 * {
 	box-sizing: border-box;
@@ -216,4 +217,239 @@ input:checked + .slider {
  .slider.round:before {
 	border-radius: 50%;
   }
- 
+ .welcome
+ {
+	 background: linear-gradient(121deg, rgba(0,0,0,0.7371323529411764) 15%, rgba(0,0,0,0.5970763305322129) 46%, rgba(0,0,0,0.7287289915966386) 89%), url('blogs.jpg');
+	 background-position: center;
+	 background-size: cover;
+	 width: 100%;
+	 align-items: center;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 position: relative;
+	 height: 90%;
+	 background-attachment: fixed;
+
+
+
+ }
+ .welcome-container
+ {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 position: relative;
+ }
+ .welcome-des
+ {
+	 height: 50vh;
+	 width: 70%;
+	background: transparent;
+	backdrop-filter: blur(10px);
+	border: 2px solid white; 
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	font-family: Poppins;
+	padding: 50px;
+ }
+ .welcome-des h1
+ {
+	font-size: 2.3rem;
+	
+ }
+ .welcome-des input[type=text]
+ {
+	padding: 6px;
+	width: 100%;
+	text-align: center;
+	font-family: Poppins;
+ }
+ .welcome-des input[type=text]:focus
+ {
+	 outline: none;
+ }
+ #search
+ {
+	 padding: 10.5px 15px;
+	 background-color: #035282;
+	 margin-bottom: -7%;
+	 float: right;
+	 position: relative;
+	 border: none;
+	 cursor: pointer;
+	 color: white;
+	 text-align: center;
+	 font-size: 15px;
+ }
+ #search:hover
+ {
+	 background-color: #023554;
+ }
+ .blogs .blog-container
+ {
+
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+ }
+ .blogs .blog-card .thumbnail
+ {
+	 width: 100%;
+
+ }
+ .blogs .blog-card
+ {
+	height: 550px;
+    width: 300px;
+	cursor: pointer;
+	backdrop-filter: blur(10px);
+	transition: all 0.3s ease;
+	box-shadow: -1rem 0 3rem #000;
+	border-radius: 16px;
+	overflow: hidden;
+ }
+ .blogs .blog-card:hover
+ {
+	transform: translateY(-20px);
+ }
+ .blogs .blog-header h3
+ {
+	 font-size: 1.3rem;
+	 
+ }
+ .date {
+	
+	padding: .25em .75em;
+	border-radius: 1em;
+	font-size: .75rem;
+  background: linear-gradient(to bottom, #b10e0c, #f35a59);
+	color: #fafafa;
+	margin: 3%;
+	position: absolute;
+ }
+ .blogs .header-des
+ {
+	 text-align: center;
+	 padding: 5%;
+ }
+ .blogs .header-des p
+ {
+	 font-size: 1rem;
+ }
+ #read
+ {
+	padding: .20em .75em;
+	text-align: center;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 10px;
+	border: none;
+	background-color: #035282;
+	color: #ffffff;
+	font-family: Kanit;
+	transition: all 0.2s ease;
+	margin-top: 3%;
+}
+
+#read:hover {
+	background-color: #023554;
+}
+.blogs .blog-footer
+{
+	padding: 7%;
+	display: flex;
+}
+.blog-footer .author-img img
+{
+	width: 45px;
+	margin-top: -10%;
+	border-radius: 50%;
+	border: 3px solid #2F80ED;
+}
+.half-circle
+{
+	position: absolute;
+    bottom: 4.5%;
+    left: 4.4%;
+    width: 55px;
+    height: 48px;
+    fill: none;
+    stroke: #ff8a00;
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+.blog-footer .author-name
+{
+	margin-left: 5%;
+	margin-bottom: -3%;
+}
+.blog-footer .date p
+{
+	font-size: .88rem;
+}
+.tag 
+{
+	padding: .25em .75em;
+	border-radius: 1em;
+	font-size: .75rem;
+  background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+	color: #fafafa;
+	margin: 5%;
+}
+.blog-list
+{
+	border: 3px solid #7a7a7a;
+	padding: 5%;
+	margin-top: 20%;
+	width: 350px;
+	height: 550px;
+}
+.blog-list h1
+{
+	font-size: 1.3rem;;
+}
+.blog-list a
+{
+	text-decoration: none;
+	color: black;
+}
+.blog-list p
+{
+	color: #585858;
+	margin-left: 2%;
+
+}
+
+.blog-list a:hover 
+{
+	color: #023554
+}
+.blog-list .header1
+{
+	text-align: right;
+}
+.like
+{
+	padding: 5%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.like i
+{
+	font-size: 1.3rem;
+	color: #035282;
+}
+.like p
+{
+	font-size: 1rem;
+}
+.blog-wrapper
+{
+	display: flex;
+	
+}
+.blog-card:not(:first-child) {
+    margin-left: -30px;
+}
